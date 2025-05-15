@@ -47,6 +47,13 @@ body{
     gap :10px;
     align-items: center;
 }
+.navbar__s4 img{
+    width: 20px;
+    cursor: pointer;
+    display: none;
+
+    
+}
 .Mylearning{
     position: relative;
     cursor: pointer;
@@ -91,10 +98,11 @@ display: none;
 .sale-image{
     position: relative;
     
+    
 }
 .sale-image__offer{
     position: absolute;
-    width: 35%;
+    
     border: solid rgb(52, 5, 183) 3px;
     background-color: white;
     padding: 2%;
@@ -132,7 +140,8 @@ margin-top: 10px;
     
 }
 .course-card{
-    width: 400px;
+   flex-grow: 1;
+   flex-basis: 20%;margin: 5px;
 }
 .course-card img{
     width: 100%;
@@ -185,4 +194,27 @@ gap: 10px;
 }
 .footer__one p{
     margin: 20px;
+}
+@media screen and (max-width:600px) {
+.course-card{
+    flex-basis: 40%;
+}
+.categories{
+    display: none;
+}
+.navbar__s2,.navbar__s3{
+    display: none;
+}
+.navbar__s4 img{
+    display: block;
+}
+.sale-image__offer{
+    width: 40%;
+    font-size: smaller;
+    
+   
+}
+
+
+    
 }
