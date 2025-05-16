@@ -225,6 +225,37 @@ gap: 10px;
     font-size: 10px;
 }
 
+@media screen and (max-width:415px){
+    .course-card{
+    flex-basis: 40%;
+}
+.categories{
+    display: none;
+}
+.navbar__s2,.navbar__s3{
+    display: none;
+}
+.navbar__s4 img{
+    display: block;
+}
 
+*{
+    font-size: 18px;
+}
+.sale-image__offer{
+    width: 40%;
+     height: 20%;
+    
+   
+}
+.navbar__s1__title{
+    font-size: 23px;
+}
+.sale-image__offer p,h2{
+    font-size: 10px;
+}
+
+    
+}
     
 }
